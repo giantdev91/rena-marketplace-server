@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS accounts;
+DROP TABLE IF EXISTS collections;
+DROP TABLE IF EXISTS items;
+DROP TABLE IF EXISTS registries;
+DROP TABLE IF EXISTS marketplaces;
+DROP TABLE IF EXISTS tokens;

@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  timeoutSecs: 20
+  readTimeoutSecs: 25
+  writeTimeoutSecs: 25
+jwt:
+  secret: secret-key
+  sessionTime: 86400
+db:
+  dataSourceName: postgres://root:password@db:5432/rena?sslmode=disable
+  migrate:
+    enable: false
+  pool:
+    maxOpen: 50
+    maxIdle: 5
+    maxLifetime: 86400
